@@ -31,13 +31,13 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tap to Record" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PfL-Xv-3dh">
-                                <rect key="frame" x="134" y="430" width="107" height="21"/>
+                                <rect key="frame" x="134" y="410" width="107" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YQh-LS-Wxn">
-                                <rect key="frame" x="150" y="465" width="76" height="76"/>
+                                <rect key="frame" x="150" y="435" width="76" height="76"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="76" id="32x-pR-qaq"/>
                                     <constraint firstAttribute="height" constant="76" id="cOp-79-PhS"/>
@@ -53,9 +53,9 @@
                             <constraint firstItem="PfL-Xv-3dh" firstAttribute="centerX" secondItem="sxg-ru-GIG" secondAttribute="centerX" id="BvP-IN-e6N"/>
                             <constraint firstItem="YQh-LS-Wxn" firstAttribute="centerX" secondItem="PfL-Xv-3dh" secondAttribute="centerX" id="NuS-eW-emm"/>
                             <constraint firstItem="sxg-ru-GIG" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="T30-Sn-lv6"/>
-                            <constraint firstItem="PfL-Xv-3dh" firstAttribute="bottom" secondItem="sxg-ru-GIG" secondAttribute="bottom" constant="40" id="XhZ-wU-YFr"/>
+                            <constraint firstItem="PfL-Xv-3dh" firstAttribute="bottom" secondItem="sxg-ru-GIG" secondAttribute="bottom" constant="20" id="XhZ-wU-YFr"/>
                             <constraint firstItem="sxg-ru-GIG" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="dWb-qW-wn9"/>
-                            <constraint firstItem="YQh-LS-Wxn" firstAttribute="bottom" secondItem="PfL-Xv-3dh" secondAttribute="bottom" constant="90" id="fRt-yG-htG"/>
+                            <constraint firstItem="YQh-LS-Wxn" firstAttribute="bottom" secondItem="PfL-Xv-3dh" secondAttribute="bottom" constant="80" id="fRt-yG-htG"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="uiZ-j2-dcK"/>
